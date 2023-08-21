@@ -15,15 +15,13 @@ h1 {
     margin: 20px;
     border: 1px solid #FF5A5F;
     border-radius: 4px;
-    text-align: center;
     position: relative;
 }
 
 .place h2 {
     font-size: 30px;
-    padding: 20px;
-    margin: 20px;
-
+    text-align: center;
+    margin: 0;
 }
 
 .price_by_night {
@@ -42,8 +40,49 @@ h1 {
 }
 
 .information {
+    position: relative;
+    margin-top: 40px;
     height: 80px;
     border-top: 1px solid #DDDDDD;
     border-bottom: 1px solid #DDDDDD;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.max_guest {
+    width: 100px;
     position: relative;
+}
+
+.guest-image {
+    width: 100px;
+    height: 60px;
+    background-image: url(../images/icon_group.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.rooms-image {
+    width: 100px;
+    height: 60px;
+    background-image: url(../images/icon_bed.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.bathroom-image {
+    width: 100px;
+    height: 60px;
+    background-image: url(../images/icon_bath.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.guest-text {
+    margin-top: 0;
+    text-align: center;
 }
