@@ -16,6 +16,7 @@ h1 {
     border: 1px solid #FF5A5F;
     border-radius: 4px;
     position: relative;
+    z-index: 1;
 }
 
 .place h2 {
@@ -85,4 +86,12 @@ h1 {
 .guest-text {
     margin-top: 0;
     text-align: center;
+}
+
+.user {
+    font-weight: bold;
+    margin-top: 20px;
+}
+.description {
+    margin-top: 15px;
 }
